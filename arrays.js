@@ -46,7 +46,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //   console.log(numbermultiplier); // Udskriver det nye array med tal ganget med 3
 
-console.log(dogsArray.join(", ")); // Udskriver alle elementer i dogsArray med komma og mellemrum
-console.log(dogsArray.join("")); // Udskriver alle elementer i dogsArray uden komma og mellemrum
+// console.log(dogsArray.join(", ")); // Udskriver alle elementer i dogsArray med komma og mellemrum
+// console.log(dogsArray.join("")); // Udskriver alle elementer i dogsArray uden komma og mellemrum
+
+let fruitsindexOf = fruitsArray.indexOf("Mango")
+console.log(fruitsindexOf); // Udskriver index nummeret for "Mango" i fruitsArray
 
 }); // ends DOMContentLoaded
