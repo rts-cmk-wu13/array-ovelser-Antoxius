@@ -33,5 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let NewNumbers = numbersArray.filter(function (number) {
     return number > 20;
   });
-  console.log(NewNumbers);
+  //   console.log(NewNumbers);
+  catsArray.push("Garfield");
+  console.log(catsArray);
 }); // ends DOMContentLoaded
