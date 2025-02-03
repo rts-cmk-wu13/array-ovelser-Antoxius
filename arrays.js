@@ -52,6 +52,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // let fruitsindexOf = fruitsArray.indexOf("Mango")
   // console.log(fruitsindexOf); // Udskriver index nummeret for "Mango" i fruitsArray
 
-  let removeDogsArray = dogsArray.filter((dog) => dog !== "Polly");
-  console.log(removeDogsArray); // Udskriver et nyt array med alle elementer fra dogsArray undtagen "Polly"
+//   let removeDogsArray = dogsArray.filter((dog) => dog !== "Polly");
+//   console.log(removeDogsArray); // Udskriver et nyt array med alle elementer fra dogsArray undtagen "Polly"
+
+  let samledeSum = numbersArray.reduce(function (totalNumber, number) {
+    return totalNumber + number;
+  });
+    console.log(samledeSum); // Udskriver summen af alle tal i numbersArray
 }); // ends DOMContentLoaded
