@@ -30,10 +30,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // --- Løs opgaverne herunder ---
 
+//   opg 1 Find og udskriv alle tal over 20 i numbersArray
   let NewNumbers = numbersArray.filter(function (number) {
     return number > 20;
   });
+
+//   opg 2 tilføj og udskriv nyt element til catsArray
   //   console.log(NewNumbers);
   catsArray.push("Garfield");
   console.log(catsArray);
+
+//   opg 3 A
+// check for specifict element i arrayet og tjek for (true/false)
+    let includesTrixie = dogsArray.includes("Trixie");
+    console.log(includesTrixie);
+
+//   opg 3 B
+// check for specifict element i arrayet og tjek for (true/false)
+    let includesBaxter = dogsArray.includes("Baxter");
+    console.log(includesBaxter);
 }); // ends DOMContentLoaded
