@@ -29,13 +29,20 @@ document.addEventListener("DOMContentLoaded", function () {
   let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21];
 
   // --- Løs opgaverne herunder: Find element i catsArray'et med .find metoden ---
-//   let hasBegheera = catsArray.find(function (cat) {
-//     return cat === "Begheera";
-//   });
-//   console.log(hasBegheera);
+  // let hasBegheera = catsArray.find(function (cat) {
+  //   return cat === "Begheera";
+  // });
+  // console.log(hasBegheera);
 
-  let hasSalem = catsArray.find(function (cat) {
-    return cat === "Salem";
+  // let hasSalem = catsArray.find(function (cat) {
+  //   return cat === "Salem";
+  // });
+  // console.log(hasSalem);
+
+  // Multiplicer alle tal i numbersArray med 3
+  let numbermultiplier = numbersArray.map(function (number) {
+    return number * 3;
   });
-  console.log(hasSalem);
+
+  console.log(numbermultiplier); // Udskriver det nye array med tal ganget med 3
 }); // ends DOMContentLoaded
