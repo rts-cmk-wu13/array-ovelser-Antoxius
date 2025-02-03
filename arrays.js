@@ -49,7 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
 // console.log(dogsArray.join(", ")); // Udskriver alle elementer i dogsArray med komma og mellemrum
 // console.log(dogsArray.join("")); // Udskriver alle elementer i dogsArray uden komma og mellemrum
 
-let fruitsindexOf = fruitsArray.indexOf("Mango")
-console.log(fruitsindexOf); // Udskriver index nummeret for "Mango" i fruitsArray
+// let fruitsArrayindexOf = fruitsArray.indexOf("Mango");
+let fruitsArrayindexOf = fruitsArray.indexOf("Blåbær");
+console.log(fruitsArrayindexOf); // Udskriver index nummeret for "Mango" i fruitsArray
 
 }); // ends DOMContentLoaded
