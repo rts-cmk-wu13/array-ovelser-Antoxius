@@ -40,9 +40,13 @@ document.addEventListener("DOMContentLoaded", function () {
   // console.log(hasSalem);
 
   // Multiplicer alle tal i numbersArray med 3
-  let numbermultiplier = numbersArray.map(function (number) {
-    return number * 3;
-  });
+//   let numbermultiplier = numbersArray.map(function (number) {
+//     return number * 3;
+//   });
 
-  console.log(numbermultiplier); // Udskriver det nye array med tal ganget med 3
+//   console.log(numbermultiplier); // Udskriver det nye array med tal ganget med 3
+
+console.log(dogsArray.join(", ")); // Udskriver alle elementer i dogsArray med komma og mellemrum
+console.log(dogsArray.join("")); // Udskriver alle elementer i dogsArray uden komma og mellemrum
+
 }); // ends DOMContentLoaded
